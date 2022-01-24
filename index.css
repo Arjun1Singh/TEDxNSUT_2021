@@ -244,3 +244,38 @@ h1{
 .change{
   border:3px solid black;
 }
+footer
+{
+  background-color: black;
+  padding: 0mm;
+}
+
+.Place{
+  padding-bottom: 2%;
+}
+.icon
+{
+  color: #d90f2a;
+}
+.icon:hover
+{
+  color: white;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+h4{
+  margin-top: 10px;
+}
+
+.copyright_footer
+{
+  background-color: #000000;
+}
