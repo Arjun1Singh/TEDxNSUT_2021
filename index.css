@@ -84,6 +84,7 @@ body {
   .container {
     position: relative;
     width: 100%; 
+    color: rgb(255, 255, 255);
   }
   
   .image {
@@ -112,16 +113,26 @@ body {
   .text {
     align-content: center;
     color: white;
-    font-size: 20px;
+    font-size: 12px;
     position: absolute;
     top: 10%; 
     left: 10%;
     right:5%;
     justify-content: center;
-    /* -webkit-transform: translate(-50%, -50%);
+     /* -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    white-space: nowrap; */
+    white-space: nowrap;  */
+  }
+  .text_heading{
+    align-content: center;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 10%; 
+    left: 10%;
+    right:5%;
+    justify-content: center;
   }
 
   /* past speakers */
@@ -189,7 +200,7 @@ h1{
 #clockdiv div > span{
 	padding: 40px;
 /* 	border-radius: 3px; */
-	background: #d90f2a;
+	background: #EC2B08;
 	display: inline-block;
 }
 
@@ -212,7 +223,8 @@ h1{
 
 }
  
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
+  
   #logo{
     padding-top: 140px;
   }
@@ -222,13 +234,14 @@ h1{
   .header {
     display: none;
   }
+  
 }
 
-/* @media screen and (min-width : 700px ) and (max-width: 1400px) {
+ /* @media screen and (min-width : 700px ) and (max-width: 1400px) {
   .text {
-    font-size: 30px;
-  }
-} */
+    font-size: 10px;
+  } */
+/* }  */
 
 /* @media screen and (max-width: 600px) {
   #logo{
@@ -238,7 +251,7 @@ h1{
     width: 100%;
     left: 0;
   }
-} */
+} 
 
 /* border in the images */
 .change{
@@ -255,7 +268,7 @@ footer
 }
 .icon
 {
-  color: #d90f2a;
+  color: #EC2B08;
 }
 .icon:hover
 {
@@ -270,12 +283,23 @@ footer
 
 .socials li{
   margin: 0 10px;
+  color: #EC2B08;
+
 }
 h4{
   margin-top: 10px;
+  color: white;
+}
+p{
+  color: rgb(143, 141, 146);
+  text-align: justify;
+  text-justify: inter-word;
+
+
 }
 
 .copyright_footer
 {
   background-color: #000000;
 }
+
