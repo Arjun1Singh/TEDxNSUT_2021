@@ -275,6 +275,12 @@ img {
     margin-bottom: 15px;
     font-weight: 700;
   }
+  .icon_box_one {
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -130px;
+  }
 
   h2, .h2 {
     font-size: 24px;
@@ -2303,9 +2309,16 @@ Cover
 
 .icon_box_one {
   background-color: #f0f2f6;
-  padding: 0;
-  margin: 25px 0;
+  /* padding: 0; */
+  width: 260px;
+  height: 450px;
+  padding: 20px;
+  /* margin: 25px 0; */
   position: relative;
+  /* top: 50%; */
+  /* left: 1%; */
+  float: middle;
+  
   overflow: hidden;
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
@@ -2317,7 +2330,7 @@ Cover
   padding: 0 15px;
   font-size: 72px;
   color: #EC2B08;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   border-radius: 4px;
   display: block;
   margin-bottom: 16px;
@@ -2414,6 +2427,8 @@ Cover
 .speaker_box {
   position: relative;
   overflow: hidden;
+  border-radius: 25px;
+  padding-bottom: 10px;
 }
 .speaker_box .speaker_img {
   position: relative;
