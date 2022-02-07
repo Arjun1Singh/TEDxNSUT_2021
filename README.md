@@ -4,3 +4,5 @@ TEDx is a program of local, self-organized events that bring people together to 
 The 'x' in TEDx signifies Independence from the shackles of shadow and brings sunshine. The 'x' is a variable which one can use to enrich culture and etiquette across individuals, society, and even countries. 
 
 At TEDxNSUT, we are known for creating not only a conference but also a  Community during the process. We host one highly anticipated Conference annually. Our speakers spark conversations through their creative, innovative, and inspiring messages. Our TEDxTeam of student volunteers makes it their mission to find and disseminate the best ideas to the biggest possible audience.
+
+![](.assets/img/screenshot.png)
