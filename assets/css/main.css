@@ -2438,6 +2438,7 @@ Cover
   width: 100%;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
+  border-radius: 15px;
 }
 .speaker_box .speaker_img .info_box {
   position: absolute;
@@ -2509,6 +2510,24 @@ Cover
   color: #ffffff;
 }
 
+.buttons{
+  transition-duration: 0.4s;
+  background-color: #18181c; 
+  border: none;
+  font-family:"montserrat";
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.buttons:hover{
+  cursor:pointer;
+   background-color: #ec2b08;
+}
 /*  ----------------------------------------------------
 7 Price box
 -------------------------------------------------------- */
