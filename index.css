@@ -288,7 +288,8 @@ p {
   flex-grow: 1;
 }
 .form_left {
-  background: url("./assets/img/IMG_20191013_102851.jpg");
+  /* background: url("./assets/img/IMG_20191013_102851.jpg"); */
+  background: url("./assets/img/back.png");
   background-position: center;
   background-size: cover;
 }
